@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog breeds</title>
+
+<!-- Link Swiper's CSS -->
+<link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="main swiper mySwiper">
+        <div class="wrapper swiper-wrapper">
+            <div class="slide swiper-slide">
+                <img src="./GOLDEN RETRIEVER.jpg" alt="" class="image">
+                <div class="image-data">
+                    <span class="text">GOLDEN RETRIEVER</span>
+                                        <a href="https://thesmartcanine.com/are-golden-retrievers-smart/" class="button" target="_blank" >About this Dog</a>
+                </div>
+            </div>
+
+            <div class="slide swiper-slide">
+                <img src="./GERMAN SHAPHERD.jpg" alt="" class="image">
+                <div class="image-data">
+                    <span class="text">GERMAN SHAPHERD</span>
+                                        <a href="https://www.akc.org/dog-breeds/german-shepherd-dog/" class="button" target="_blank">About this Dog</a>
+                </div>
+            </div>
+
+            <div class="slide swiper-slide">
+                <img src="./PUG.jpg" alt="" class="image">
+                <div class="image-data">
+                    <span class="text">PUG</span>
+                                        <a href="https://www.akc.org/dog-breeds/pug/" class="button" target="_blank">About this Dog</a>
+                </div>
+            </div>
+
+            <div class="slide swiper-slide">
+                <img src="./BORDER COLLIE.jpg" alt="" class="image">
+                <div class="image-data">
+                    <span class="text">BORDER COLLIE</span>
+                                        <a href="https://www.akc.org/dog-breeds/border-collie/" class="button" target="_blank">About this Dog</a>
+                </div>
+            </div>
+
+            <div class="slide swiper-slide">
+                <img src="./WELSH TERRIER.jpg" alt="" class="image">
+                <div class="image-data">
+                    <span class="text">WELSH TERRIER</span>
+                                        <a href="https://petponder.com/facts-about-welsh-terrier-dog-breed" class="button" target="_blank">About this Dog</a>
+                </div>
+            </div>
+
+            <div class="slide swiper-slide">
+                <img src="./BELGIAN TERVUREN.jpg" alt="" class="image">
+                <div class="image-data">
+                    <span class="text">BELGIAN TERVUREN</span>
+                                        <a href="https://www.akc.org/dog-breeds/belgian-tervuren/" class="button" target="_blank">About this Dog</a>
+                </div>
+            </div>
+
+
+            <div class="slide swiper-slide">
+                <img src="./PAPILLON.jpg" alt="" class="image">
+                <div class="image-data">
+                    <span class="text">PAPILLON</span>
+                                        <a href="https://www.akc.org/dog-breeds/papillon/" class="button" target="_blank">About this Dog</a>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="swiper-button-next nav-btn"></div>
+        <div class="swiper-button-prev nav-btn"></div>
+        <div class="swiper-pagination nav-btn"></div>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+        //   spaceBetween: 30,
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+</body>
+</html>

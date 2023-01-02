@@ -1,0 +1,73 @@
+html,body{
+    margin:0;
+    height: 100%;
+    
+}
+.background-wrap {
+    position: fixed;
+    z-index: -1000;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+   
+}
+
+
+#video-bg-elem {
+    position: relative;
+    min-height: 100vh;
+    min-width: 100%; 
+    filter:brightness(35%);
+    background-color: transparent;
+    z-index: -99;
+}
+.food img{
+    display:flex; 
+     width: 50%;
+    height: 50%;
+    object-fit:center;
+    border-radius: 30px 550px 40px;
+    margin-left: auto;
+  margin-right: auto;
+    
+}
+
+    .food dl{
+    display: block;
+    font-size: 150px;
+    flex: auto;
+    color: rgb(164, 240, 243);
+    text-align: center;
+}
+.food dd{
+    display: block;
+    font-size: 100px;
+    flex: auto;
+    color: rgb(242, 246, 247);
+}
+.background-wrap{
+    position: fixed;
+    z-index: -1000;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    /* top: 0;
+    left: 0; */
+}
+.Heading h1{
+    display: block;
+    font-size: 150px;
+    flex: auto;
+    color: #d0daee;
+    text-align: center;
+}
+.Heading p{
+    display: block;
+    font-size: 80px;
+    flex: auto;
+    text-align: justify;
+    color:#d2f1cf;
+    text-align: center;
+}
